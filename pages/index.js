@@ -4,20 +4,20 @@ import NewsSectionLayout from '../components/NewsSectionLayout';
 
 export async function getStaticProps(context) {
   const res = await fetch('http://localhost:3000/api/newsLatest')
-  const news_data = await res.json()
+  const latestNewsData = await res.json()
 
-  if (!news_data) {
+  if (!latestNewsData) {
     return {
       notFound: true,
     }
   }
 
   return {
-    props: { news_data },
+    props: { latestNewsData },
   }
 };
 
-export default function Home({ news_data }) {
+export default function Home({ latestNewsData }) {
   return (
     <Layout title="КТУИС">
       {/* title leading */}
@@ -29,7 +29,7 @@ export default function Home({ news_data }) {
 
       <section className="mx-auto max-w-4xl">
         <a className="px-2 bg-blue-800 text-xl md:text-2xl text-white" href="">Новости</a>
-        <NewsSectionLayout />
+        <NewsSectionLayout latestNewsItems={latestNewsData} />
       </section>
 
       {/* specialnosti section */}
