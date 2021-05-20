@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @layer base {
-    li {
+    /* li {
         @apply hover:bg-gray-100 rounded-md hover:underline p-3;
-    }
+    } */
     a {
-        @apply hover:underline text-blue-700;
+        @apply hover:underline text-blue-500;
     }
 /* не делать apply это хуета/инфа от разраба */
 }

@@ -2,11 +2,11 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 // лого слева
-export default function Layout({ children, title }) {
+export default function Layout({ children, metaTitle }) {
   return (
     <>
       <Head>
-        <title>{title}</title>
+        <title>{metaTitle}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
