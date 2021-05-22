@@ -16,7 +16,7 @@ function Logo() {
       </svg>
       {isIndexPage
         ? <p className="text-xl font-medium font-serif">КТУИС</p>
-        : <Link href="/"><a className="text-2xl">На главную</a></Link>}
+        : <Link href="/"><a className="text-2xl text-black">&larr; На главную</a></Link>}
     </div>
   );
 };
@@ -31,22 +31,22 @@ export default function Header() {
         <ul className="text-gray-800 text-2xl text-center md:text-2xl md:justify-center overflow-x-auto whitespace-nowrap my-2">
           <li className="inline mx-4">
             {currentPage === '/about'
-              ? <span className="underline text-gray-500">О техникуме</span>
+              ? <span className="text-gray-400">О техникуме</span>
               : <Link href="/about"><a className="text-black">О техникуме</a></Link>}
           </li>
           <li className="inline mx-4">
             {currentPage === '/enrollee'
-              ? <span className="underline text-gray-500">Поступающим</span>
+              ? <span className="text-gray-400">Поступающим</span>
               : <Link href="/enrollee"><a className="text-black">Поступающим</a></Link>}
           </li>
           <li className="inline mx-4">
             {currentPage === '/students'
-              ? <span className="underline text-gray-500">Студентам</span>
+              ? <span className="text-gray-400">Студентам</span>
               : <Link href="/students"><a className="text-black">Студентам</a></Link>}
           </li>
           <li className="inline mx-4">
             {currentPage === '/contacts'
-              ? <span className="underline text-gray-500">Контакты</span>
+              ? <span className="text-gray-400">Контакты</span>
               : <Link href="/contacts"><a className="text-black">Контакты</a></Link>}
           </li>
         </ul>

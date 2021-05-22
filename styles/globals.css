@@ -9,7 +9,10 @@
     a {
         @apply hover:underline text-blue-500;
     }
-/* не делать apply это хуета/инфа от разраба */
+    body {
+        @apply bg-gradient-to-b from-gray-50 to-gray-100 h-full min-h-screen;
+    }
+/* не делать apply это плохо/инфа от разраба */
 }
 
 @layer components {
@@ -17,7 +20,7 @@
         @apply flex-none px-8 py-2 rounded-xl bg-gray-100 mx-2.5 my-2.5 shadow-lg no-underline text-black;
     }
     .faq-question {
-        @apply bg-gray-200 px-4 shadow-xl text-gray-900 py-2 mr-auto w-5/6 max-w-max rounded-2xl;
+        @apply bg-indigo-100 px-4 shadow-xl text-gray-700 py-2 mr-auto w-5/6 max-w-max rounded-2xl;
     }
     .faq-answer {
         @apply px-4 py-2 border ml-auto w-auto max-w-max text-right shadow-xl bg-white text-gray-900 rounded-2xl;

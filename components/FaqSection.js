@@ -1,7 +1,7 @@
 export default function FaqSection() {
   return (
     <section className="mx-auto max-w-3xl my-5">
-      <a className="px-2 bg-green-800 text-xl md:text-2xl text-white" href="">Часто задаваемые вопросы</a>
+      <p className="inline-block mb-2 mx-3 md:mx-0 text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-indigo-400" href="">Часто задаваемые вопросы</p>
       <div className="grid auto-rows-min px-3 md:px-0 grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-3 font-medium text-lg">
         <div>
           <p className="faq-question">Какие документы нужны для поступления и какие сроки приёма документов?</p>

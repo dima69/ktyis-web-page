@@ -24,8 +24,8 @@ export default function Home({ latestNewsData }) {
     <Layout metaTitle="КТУИС">
       {/* title leading */}
       <h1 className="text-center py-6 max-w-2xl mx-auto">
-        <span className="rounded-none text-gray-900 text-2xl break-normal">
-          КРАСНОДАРСКИЙ ТЕХНИКУМ УПРАВЛЕНИЯ, ИНФОРМАТИЗАЦИИ И&nbsp;СЕРВИСА
+        <span className="text-gray-900 text-4xl break-normal tracking-tight font-medium">
+          Краснодарский техникум управления, информатизации и&nbsp;сервиса
         </span>
       </h1>
       <NewsSectionLayout latestNewsItems={latestNewsData} />

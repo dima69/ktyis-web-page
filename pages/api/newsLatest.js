@@ -3,27 +3,27 @@
 export default (req, res) => {
   res.status(200).json(
     [{
-      title: 'КАДРОВАЯ ШКОЛА КРО АСО РОССИИ',
+      title: 'Кадровая школа КРО АСО России',
       image_url: '/images/news_1.jpg',
       link_url: '/news/28-12-2020/kadrovaya_shkola'
     },
     {
-      title: 'ВОЛОНТЕРЫ ДЛЯ ДЕЖУРСТВА НА ВАКЦИНАЦИИ ОТ КОРОНАВИРУСА',
+      title: 'Волонтеры для дежурства на вакцинации от коронавируса',
       image_url: '/images/news_2.jpg',
       link_url: '/news/28-12-2020/kadrovaya_shkola'
     },
     {
-      title: 'ДЕНЬ КОСМОНАВТИКИ',
+      title: 'День космонавтики',
       image_url: '/images/news_3.jpg',
       link_url: '/news/28-12-2020/kadrovaya_shkola'
     },
     {
-      title: 'ЭКОЛОГИЧЕСКАЯ АКЦИЯ — «ЧИСТЫЙ БЕРЕГ»',
+      title: 'Экологическая акция — «Чистый Берег»',
       image_url: '/images/news_4.jpg',
       link_url: '/news/28-12-2020/kadrovaya_shkola'
     },
     {
-      title: 'CУББОТНИК-ЭКОЛОГИЧЕСКАЯ АКЦИЯ',
+      title: 'Субботник-экологическая акция',
       image_url: '/images/news_5.jpg',
       link_url: '/news/28-12-2020/kadrovaya_shkola'
     },
