@@ -15,7 +15,7 @@ export default function Footer() {
       <hr className="h-px bg-gray-400 border-none"></hr>
       <p className="m-2 font-bold text-2xl">ЧУ ПОО КТУИС</p>
       <p className="">ИНН&nbsp;2310065756,&nbsp;ОГРН&nbsp;1022301600100</p>
-      <span className="text-xl">КТУИС в соцсетях <SocialsSvgIcons></SocialsSvgIcons> </span>
+      <span className="text-xl">КТУИС в соцсетях <SocialsSvgIcons /></span>
       <p>2021г.</p>
     </footer>
   );
